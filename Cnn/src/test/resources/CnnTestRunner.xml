@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cnn Tests" parallel="false">
+
+    <parameter name="url" value="https://www.cnn.com"/>
+
+    <test name = "Cnn Home">
+        <classes>
+            <class name="news.CnnTest"/>
+        </classes>
+    </test>
+
+</suite>
